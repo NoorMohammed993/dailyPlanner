@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+     <title>daily planner</title>
+    <!-- Bootstrap core CSS -->
+     <link rel="stylesheet" href="css/bootstrap.css"> 
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	 <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+	     <script src="js/bootstrap.min.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/js.js"></script>
+     
+  </head>
+
+  <body onload="getTask()">
+  <nav class="navbar navbar-inverse" style="font-family:Roboto,Helvetica,Arial,sans-serif;">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand  brand2" href="index.html" class=""><font color="#17AA1C">Daily</font>planner</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+       
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="index.html"> Home </a></li>
+        <li><a href="tasks.html">Tasks </a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="#">Contacts</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+	
+	
+    
+    <div class="container">
+     <h2 class="page-header">Edit Task</h2>
+       
+
+
+<form action="tasks.html" id="edit-task-form">
+  <div class="form-group">
+    <label for="task">Task</label>
+    <input type="text" class="form-control" id="task" placeholder="Enter Task" required>
+  </div>
+  <div class="form-group">
+    <label for="">Priority</label>
+    <select  id="priority"  class="form-control" required>
+	<option value="">Select Priority</option>
+	<option value="low">Low</option>
+	<option value="normal">Normal</option>
+	<option value="high">High</option>
+	</select>
+  </div>
+    <div class="form-group">
+    <label for="">Date</label>
+    <input type="date" id="date" class="form-control"  required > 
+  </div>
+ <div class="form-group">
+    <label for="">Time</label>
+    <input type="time" id="time" class="form-control">
+  </div>
+    
+  <input type="hidden" id="task_id" value="">
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	   
+	   
+    </div> 
+   
+
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</body>
+</html>
